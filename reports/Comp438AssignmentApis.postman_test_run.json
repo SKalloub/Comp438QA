@@ -1,0 +1,111 @@
+{
+	"id": "50035d49-6c62-46a8-afb8-485bf1cd87e3",
+	"name": "Comp438Assignment Apis",
+	"timestamp": "2023-06-30T01:04:41.141Z",
+	"collection_id": "16611223-a4478aa1-e34b-4b77-863a-5c42e73e818e",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 3,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "f0b84073-935b-4daa-be82-4348c2f47158",
+			"name": "get all currencies",
+			"url": "http://localhost:8080/exchange/currency",
+			"time": 14,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"test if currencies exist": true
+			},
+			"testPassFailCounts": {
+				"test if currencies exist": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				14
+			],
+			"allTests": [
+				{
+					"test if currencies exist": true
+				}
+			]
+		},
+		{
+			"id": "b78a7c90-0d50-4a43-943f-a429345e9b6f",
+			"name": "getConversionRate",
+			"url": "http://localhost:8080/exchange/usd/eur",
+			"time": 263,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"test if conversion rate fetched properly": true
+			},
+			"testPassFailCounts": {
+				"test if conversion rate fetched properly": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				263
+			],
+			"allTests": [
+				{
+					"test if conversion rate fetched properly": true
+				}
+			]
+		},
+		{
+			"id": "44a64f95-a932-4289-b6a0-577cda77b5ef",
+			"name": "exhange amount",
+			"url": "http://localhost:8080/exchange/usd/eur/4",
+			"time": 168,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"check if the conversion rate * amount is given the correct result": true
+			},
+			"testPassFailCounts": {
+				"check if the conversion rate * amount is given the correct result": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				168
+			],
+			"allTests": [
+				{
+					"check if the conversion rate * amount is given the correct result": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 445,
+	"collection": {
+		"requests": [
+			{
+				"id": "f0b84073-935b-4daa-be82-4348c2f47158",
+				"method": "GET"
+			},
+			{
+				"id": "b78a7c90-0d50-4a43-943f-a429345e9b6f",
+				"method": "GET"
+			},
+			{
+				"id": "44a64f95-a932-4289-b6a0-577cda77b5ef",
+				"method": "GET"
+			}
+		]
+	}
+}
