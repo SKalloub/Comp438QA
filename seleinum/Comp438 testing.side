@@ -1,0 +1,215 @@
+{
+  "id": "9f83348c-49c8-48cc-890a-6d546d3a3580",
+  "version": "2.0",
+  "name": "Comp438 testing",
+  "url": "http://localhost:3000",
+  "tests": [{
+    "id": "b6fb6d2e-ae5e-424c-a943-aa8e3c043380",
+    "name": "testConvertEurToIls",
+    "commands": [{
+      "id": "99b79fde-eeeb-47ad-9329-edd327b89350",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6d38614e-0e83-4602-be68-86a502488c26",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "2064x1128",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fbf8dc2b-aa48-45bf-98ea-0e32a6d7d9ae",
+      "comment": "",
+      "command": "click",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2f96f27-ac30-4675-a549-3789164762f5",
+      "comment": "",
+      "command": "type",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "23"
+    }, {
+      "id": "5fc434a8-c259-444e-a3f5-09833fe5c2ff",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-group:nth-child(3) select",
+      "targets": [
+        ["css=.form-group:nth-child(3) select", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd81f7cf-4897-46d3-a23f-68ff288298b4",
+      "comment": "",
+      "command": "select",
+      "target": "css=.form-group:nth-child(3) select",
+      "targets": [],
+      "value": "label=Euro (EUR)"
+    }, {
+      "id": "47f75656-7fdf-4043-aa0b-0ef0171a6dfc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-group:nth-child(4) select",
+      "targets": [
+        ["css=.form-group:nth-child(4) select", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[3]/div/select", "xpath:idRelative"],
+        ["xpath=//div[3]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "faa122ad-7159-4495-a413-c5f504a15b1c",
+      "comment": "",
+      "command": "select",
+      "target": "css=.form-group:nth-child(4) select",
+      "targets": [],
+      "value": "label=Israeli Shekel (ILS)"
+    }, {
+      "id": "c6b7ad73-151c-4788-afbf-206384a88d00",
+      "comment": "",
+      "command": "click",
+      "target": "css=.convert-button",
+      "targets": [
+        ["css=.convert-button", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Convert')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4bb297af-23de-4a30-a59b-8cd0394f4492",
+    "name": "testConvertEuroToUSD",
+    "commands": [{
+      "id": "ce35df31-341d-4d99-99b0-940bf0320d7f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "547423c9-b480-49a2-98b6-3b57f324b87f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "2064x1128",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "479a3651-6c64-47e7-8a73-5d08b690b446",
+      "comment": "",
+      "command": "click",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "105c7723-c153-4ab4-84f9-82d8e6e20542",
+      "comment": "",
+      "command": "type",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "10"
+    }, {
+      "id": "bbab79e4-d1d8-46eb-a9f6-49b7e46270c5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-group:nth-child(3) select",
+      "targets": [
+        ["css=.form-group:nth-child(3) select", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bedccd6f-63a7-4c15-9a9b-e7f94dc2e8ef",
+      "comment": "",
+      "command": "select",
+      "target": "css=.form-group:nth-child(3) select",
+      "targets": [],
+      "value": "label=South African Rand (ZAR)"
+    }, {
+      "id": "08ca3265-5eb1-468c-bbfb-7c305598d299",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-group:nth-child(3) select",
+      "targets": [
+        ["css=.form-group:nth-child(3) select", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a6422b7-704f-4dd7-8ae1-afdad9e81dd0",
+      "comment": "",
+      "command": "select",
+      "target": "css=.form-group:nth-child(3) select",
+      "targets": [],
+      "value": "label=Euro (EUR)"
+    }, {
+      "id": "32d42970-8750-4cc9-8201-608433b317d0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-group:nth-child(4) select",
+      "targets": [
+        ["css=.form-group:nth-child(4) select", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[3]/div/select", "xpath:idRelative"],
+        ["xpath=//div[3]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec66aa3a-96f9-4813-ab4c-0666c750aeab",
+      "comment": "",
+      "command": "select",
+      "target": "css=.form-group:nth-child(4) select",
+      "targets": [],
+      "value": "label=United States Dollar (USD)"
+    }, {
+      "id": "743c5881-2fec-4664-bcd5-de7142d6db1f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.convert-button",
+      "targets": [
+        ["css=.convert-button", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Convert')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "65d4ed3e-34ff-47a7-aceb-795b10314fda",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://localhost:3000/"],
+  "plugins": []
+}
